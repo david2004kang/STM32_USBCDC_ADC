@@ -1,0 +1,10 @@
+*.o
+*.crf
+*.d
+*.bin
+*.axf
+*.htm
+*.hex
+*.david
+*.map
+*.dep
