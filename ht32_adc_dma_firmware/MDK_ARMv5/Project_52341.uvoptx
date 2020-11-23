@@ -168,18 +168,18 @@
         <Bp>
           <Number>1</Number>
           <Type>0</Type>
-          <LineNumber>221</LineNumber>
+          <LineNumber>515</LineNumber>
           <EnabledFlag>1</EnabledFlag>
-          <Address>1648</Address>
+          <Address>0</Address>
           <ByteObject>0</ByteObject>
           <HtxType>0</HtxType>
           <ManyObjects>0</ManyObjects>
           <SizeOfObject>0</SizeOfObject>
           <BreakByAccess>0</BreakByAccess>
-          <BreakIfRCount>1</BreakIfRCount>
-          <Filename>..\ht32_usbd_class.c</Filename>
+          <BreakIfRCount>0</BreakIfRCount>
+          <Filename>..\library\HT32_USBD_Library\src\ht32_usbd_core.c</Filename>
           <ExecCommand></ExecCommand>
-          <Expression>\\HT32\../ht32_usbd_class.c\221</Expression>
+          <Expression></Expression>
         </Bp>
       </Breakpoint>
       <Tracepoint>

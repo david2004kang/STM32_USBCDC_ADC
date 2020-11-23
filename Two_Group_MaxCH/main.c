@@ -31,7 +31,6 @@
 #include "ht32_board_config.h"
 
 #include "adc_group.h"
-#include "string.h"
 
 /** @addtogroup HT32_Series_Peripheral_Examples HT32 Peripheral Examples
   * @{
@@ -135,7 +134,7 @@ void ADC_Test_MainRoutine(void)
   ***********************************************************************************************************/
 void ADC_Test_MainRoutine_Softwre(void)
 {
-  if (uTimeTick500ms >= 4)
+  if (uTimeTick500ms >= 1)
   {
     uTimeTick500ms = 0;
 
@@ -169,29 +168,24 @@ void ADC_Test_MainRoutine_TM(void)
 void ADC_Test_ShowResult(void)
 {
   u32 nCounter;
-	u8 szStringBuffer[128];
-	
-	
-	for(nCounter = 0 ; nCounter < 16 ; nCounter ++){
-		  uADCData[nCounter] &= 0x00000FFF;
-	}
 
-	memset(szStringBuffer, 0, 128);
-	snprintf((char *)szStringBuffer, 128, "%03X %03X %03X %03X %03X %03X\r\n", 
-					(int)uADCData[2], (int)uADCData[3], (int)uADCData[4], (int)uADCData[5], (int)uADCData[8], (int)uADCData[9]);
-						
+	for(nCounter = 2 ; nCounter <= 9 ; nCounter++)
+		uADCData[nCounter] &= 0x00000FFF;
+
   #if (ENABLE_DEBUG_PRINTF == 1)
-  printf("\r\nADC Result\r\n");
-  printf("ADC Group 1\r\n");
-  for (nCounter = 0; nCounter < ADC_GROUP_LIST_LENGTH; nCounter++)
-  {
-    printf("ADC Sequence %d = %d\r\n", nCounter, uADCData[nCounter]);
-  }
-  printf("ADC Group 2\r\n");
-  for (nCounter = 0; nCounter < ADC_GROUP_LIST_LENGTH; nCounter++)
-  {
-    printf("ADC Sequence %d = %d\r\n", nCounter, uADCData[ADC_GROUP_LIST_LENGTH + nCounter]);
-  }
+  printf("%03X %03X %03X %03X %03X %03X %03X %03X\r\n", 
+					uADCData[2], uADCData[3], uADCData[4], uADCData[5], 
+					uADCData[6], uADCData[7], uADCData[8], uADCData[9]);
+//  printf("ADC Group 1\r\n");
+//  for (i = 0; i < ADC_GROUP_LIST_LENGTH; i++)
+//  {
+//    printf("ADC Sequence %d = %d\r\n", i, uADCData[i]);
+//  }
+//  printf("ADC Group 2\r\n");
+//  for (i = 0; i < ADC_GROUP_LIST_LENGTH; i++)
+//  {
+//    printf("ADC Sequence %d = %d\r\n", i, uADCData[ADC_GROUP_LIST_LENGTH + i]);
+//  }
   #endif
 }
 

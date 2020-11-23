@@ -62,7 +62,8 @@
 //       <i> Auto Return function adds "\r" before "\n" automatically when print message by Retarget.
 */
 #define _RETARGET            1
-#define RETARGET_PORT        10
+//#define RETARGET_PORT        10
+#define RETARGET_PORT        RETARGET_USB
 #define _AUTO_RETURN         0
 
 #ifndef AUTO_RETURN
