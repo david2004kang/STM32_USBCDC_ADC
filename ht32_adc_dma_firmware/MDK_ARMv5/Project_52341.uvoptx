@@ -283,7 +283,7 @@
 
   <Group>
     <GroupName>CMSIS</GroupName>
-    <tvExp>1</tvExp>
+    <tvExp>0</tvExp>
     <tvExpOptDlg>0</tvExpOptDlg>
     <cbSel>0</cbSel>
     <RteFlg>0</RteFlg>
@@ -303,7 +303,7 @@
 
   <Group>
     <GroupName>MDK-ARM</GroupName>
-    <tvExp>1</tvExp>
+    <tvExp>0</tvExp>
     <tvExpOptDlg>0</tvExpOptDlg>
     <cbSel>0</cbSel>
     <RteFlg>0</RteFlg>
@@ -334,7 +334,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>.\library\HT32_USBD_Library\src\ht32_usbd_core.c</PathWithFileName>
+      <PathWithFileName>..\library\HT32_USBD_Library\src\ht32_usbd_core.c</PathWithFileName>
       <FilenameWithoutPath>ht32_usbd_core.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -343,7 +343,7 @@
 
   <Group>
     <GroupName>Library</GroupName>
-    <tvExp>1</tvExp>
+    <tvExp>0</tvExp>
     <tvExpOptDlg>0</tvExpOptDlg>
     <cbSel>0</cbSel>
     <RteFlg>0</RteFlg>
@@ -354,7 +354,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>.\library\HT32F5xxxx_Driver\src\ht32_cm0plus_misc.c</PathWithFileName>
+      <PathWithFileName>..\library\HT32F5xxxx_Driver\src\ht32_cm0plus_misc.c</PathWithFileName>
       <FilenameWithoutPath>ht32_cm0plus_misc.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -366,7 +366,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>.\library\HT32F5xxxx_Driver\src\ht32f5xxxx_adc.c</PathWithFileName>
+      <PathWithFileName>..\library\HT32F5xxxx_Driver\src\ht32f5xxxx_adc.c</PathWithFileName>
       <FilenameWithoutPath>ht32f5xxxx_adc.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -378,7 +378,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>.\library\HT32F5xxxx_Driver\src\ht32f5xxxx_bftm.c</PathWithFileName>
+      <PathWithFileName>..\library\HT32F5xxxx_Driver\src\ht32f5xxxx_bftm.c</PathWithFileName>
       <FilenameWithoutPath>ht32f5xxxx_bftm.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -390,7 +390,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>.\library\HT32F5xxxx_Driver\src\ht32f5xxxx_ckcu.c</PathWithFileName>
+      <PathWithFileName>..\library\HT32F5xxxx_Driver\src\ht32f5xxxx_ckcu.c</PathWithFileName>
       <FilenameWithoutPath>ht32f5xxxx_ckcu.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -402,7 +402,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>.\library\HT32F5xxxx_Driver\src\ht32f5xxxx_crc.c</PathWithFileName>
+      <PathWithFileName>..\library\HT32F5xxxx_Driver\src\ht32f5xxxx_crc.c</PathWithFileName>
       <FilenameWithoutPath>ht32f5xxxx_crc.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -414,7 +414,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>.\library\HT32F5xxxx_Driver\src\ht32f5xxxx_exti.c</PathWithFileName>
+      <PathWithFileName>..\library\HT32F5xxxx_Driver\src\ht32f5xxxx_exti.c</PathWithFileName>
       <FilenameWithoutPath>ht32f5xxxx_exti.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -426,7 +426,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>.\library\HT32F5xxxx_Driver\src\ht32f5xxxx_flash.c</PathWithFileName>
+      <PathWithFileName>..\library\HT32F5xxxx_Driver\src\ht32f5xxxx_flash.c</PathWithFileName>
       <FilenameWithoutPath>ht32f5xxxx_flash.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -438,7 +438,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>.\library\HT32F5xxxx_Driver\src\ht32f5xxxx_gpio.c</PathWithFileName>
+      <PathWithFileName>..\library\HT32F5xxxx_Driver\src\ht32f5xxxx_gpio.c</PathWithFileName>
       <FilenameWithoutPath>ht32f5xxxx_gpio.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -450,7 +450,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>.\library\HT32F5xxxx_Driver\src\ht32f5xxxx_i2c.c</PathWithFileName>
+      <PathWithFileName>..\library\HT32F5xxxx_Driver\src\ht32f5xxxx_i2c.c</PathWithFileName>
       <FilenameWithoutPath>ht32f5xxxx_i2c.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -462,7 +462,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>.\library\HT32F5xxxx_Driver\src\ht32f5xxxx_mctm.c</PathWithFileName>
+      <PathWithFileName>..\library\HT32F5xxxx_Driver\src\ht32f5xxxx_mctm.c</PathWithFileName>
       <FilenameWithoutPath>ht32f5xxxx_mctm.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -474,7 +474,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>.\library\HT32F5xxxx_Driver\src\ht32f5xxxx_pwrcu.c</PathWithFileName>
+      <PathWithFileName>..\library\HT32F5xxxx_Driver\src\ht32f5xxxx_pwrcu.c</PathWithFileName>
       <FilenameWithoutPath>ht32f5xxxx_pwrcu.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -486,7 +486,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>.\library\HT32F5xxxx_Driver\src\ht32f5xxxx_rstcu.c</PathWithFileName>
+      <PathWithFileName>..\library\HT32F5xxxx_Driver\src\ht32f5xxxx_rstcu.c</PathWithFileName>
       <FilenameWithoutPath>ht32f5xxxx_rstcu.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -498,7 +498,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>.\library\HT32F5xxxx_Driver\src\ht32f5xxxx_rtc.c</PathWithFileName>
+      <PathWithFileName>..\library\HT32F5xxxx_Driver\src\ht32f5xxxx_rtc.c</PathWithFileName>
       <FilenameWithoutPath>ht32f5xxxx_rtc.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -510,7 +510,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>.\library\HT32F5xxxx_Driver\src\ht32f5xxxx_sci.c</PathWithFileName>
+      <PathWithFileName>..\library\HT32F5xxxx_Driver\src\ht32f5xxxx_sci.c</PathWithFileName>
       <FilenameWithoutPath>ht32f5xxxx_sci.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -522,7 +522,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>.\library\HT32F5xxxx_Driver\src\ht32f5xxxx_spi.c</PathWithFileName>
+      <PathWithFileName>..\library\HT32F5xxxx_Driver\src\ht32f5xxxx_spi.c</PathWithFileName>
       <FilenameWithoutPath>ht32f5xxxx_spi.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -534,7 +534,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>.\library\HT32F5xxxx_Driver\src\ht32f5xxxx_tm.c</PathWithFileName>
+      <PathWithFileName>..\library\HT32F5xxxx_Driver\src\ht32f5xxxx_tm.c</PathWithFileName>
       <FilenameWithoutPath>ht32f5xxxx_tm.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -546,7 +546,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>.\library\HT32F5xxxx_Driver\src\ht32f5xxxx_usart.c</PathWithFileName>
+      <PathWithFileName>..\library\HT32F5xxxx_Driver\src\ht32f5xxxx_usart.c</PathWithFileName>
       <FilenameWithoutPath>ht32f5xxxx_usart.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -558,7 +558,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>.\library\HT32F5xxxx_Driver\src\ht32f5xxxx_usbd.c</PathWithFileName>
+      <PathWithFileName>..\library\HT32F5xxxx_Driver\src\ht32f5xxxx_usbd.c</PathWithFileName>
       <FilenameWithoutPath>ht32f5xxxx_usbd.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -570,7 +570,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>.\library\HT32F5xxxx_Driver\src\ht32f5xxxx_wdt.c</PathWithFileName>
+      <PathWithFileName>..\library\HT32F5xxxx_Driver\src\ht32f5xxxx_wdt.c</PathWithFileName>
       <FilenameWithoutPath>ht32f5xxxx_wdt.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -579,7 +579,7 @@
 
   <Group>
     <GroupName>Retarget</GroupName>
-    <tvExp>1</tvExp>
+    <tvExp>0</tvExp>
     <tvExpOptDlg>0</tvExpOptDlg>
     <cbSel>0</cbSel>
     <RteFlg>0</RteFlg>
@@ -590,7 +590,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>.\library\HT32F5xxxx_Driver\src\ht32_retarget.c</PathWithFileName>
+      <PathWithFileName>..\library\HT32F5xxxx_Driver\src\ht32_retarget.c</PathWithFileName>
       <FilenameWithoutPath>ht32_retarget.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -602,7 +602,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>.\library\HT32F5xxxx_Driver\src\ht32_serial.c</PathWithFileName>
+      <PathWithFileName>..\library\HT32F5xxxx_Driver\src\ht32_serial.c</PathWithFileName>
       <FilenameWithoutPath>ht32_serial.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -611,7 +611,7 @@
 
   <Group>
     <GroupName>Utilities</GroupName>
-    <tvExp>1</tvExp>
+    <tvExp>0</tvExp>
     <tvExpOptDlg>0</tvExpOptDlg>
     <cbSel>0</cbSel>
     <RteFlg>0</RteFlg>
@@ -622,7 +622,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>.\utilities\ht32_board.c</PathWithFileName>
+      <PathWithFileName>..\utilities\ht32_board.c</PathWithFileName>
       <FilenameWithoutPath>ht32_board.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -634,7 +634,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>.\utilities\common\i2c_eeprom.c</PathWithFileName>
+      <PathWithFileName>..\utilities\common\i2c_eeprom.c</PathWithFileName>
       <FilenameWithoutPath>i2c_eeprom.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -646,7 +646,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>.\utilities\common\spi_flash.c</PathWithFileName>
+      <PathWithFileName>..\utilities\common\spi_flash.c</PathWithFileName>
       <FilenameWithoutPath>spi_flash.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -658,7 +658,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>.\utilities\common\spi_lcd.c</PathWithFileName>
+      <PathWithFileName>..\utilities\common\spi_lcd.c</PathWithFileName>
       <FilenameWithoutPath>spi_lcd.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -667,7 +667,7 @@
 
   <Group>
     <GroupName>Doc</GroupName>
-    <tvExp>1</tvExp>
+    <tvExp>0</tvExp>
     <tvExpOptDlg>0</tvExpOptDlg>
     <cbSel>0</cbSel>
     <RteFlg>0</RteFlg>

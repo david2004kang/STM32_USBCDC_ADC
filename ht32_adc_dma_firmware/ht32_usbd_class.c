@@ -31,7 +31,6 @@
 #include "ht32_usbd_class.h"
 #include "common/ring_buffer.h"
 #include "common/ring_buffer.c"
-#include <string.h>
 
 /** @addtogroup HT32_Series_Peripheral_Examples HT32 Peripheral Examples
   * @{
@@ -55,7 +54,7 @@
 #define CDC_EPT_IN_LENGTH                   (_EP1LEN)
 #define CDC_EPT                             (USBD_EPT1)
 
-#define BUF_SIZE                            (2048) //Don't set just enough buffers.
+#define BUF_SIZE                            (512) //Don't set just enough buffers.
 
 /* Private function prototypes -----------------------------------------------------------------------------*/
 static void USBDClass_MainRoutine(u32 uPara);
@@ -89,8 +88,8 @@ static vu32 gIsCDCEPINEmpty = TRUE;
 static u32 gIsZLP_Require = FALSE;
 static USBDClass_VCP_LINE_CODING USBDClassVCPLineCoding;
 
-__ALIGN4 static u8 gInputDataBuffer[512];
-__ALIGN4 static u8 gOutputDataBuffer[512];
+__ALIGN4 static u8 gInputDataBuffer[64];
+__ALIGN4 static u8 gOutputDataBuffer[64];
 __ALIGN4 static u8 gRingDataBuffer[BUF_SIZE];
 static u32 gIsDataReady = FALSE;
 static u32 gBufferIndex = 0;
@@ -201,7 +200,6 @@ static void USBDClass_CDC_ZLPProcess(void)
   ***********************************************************************************************************/
 static void USBDClass_CDC_Rx(void)
 {
-	__ALIGN4 static u8 localInputDataBuffer[512];
   /* Demo how to check Virtual COM RingBuffer data is empty or not                                          */
   if (Buffer_isEmpty(&gRingBuffer) == FALSE)
   {
@@ -219,10 +217,7 @@ static void USBDClass_CDC_Rx(void)
   #if 1
   if (gIsDataReady == TRUE && gIsCDCEPINEmpty == TRUE)
   {
-		
-    Buffer_Read(&gRingBuffer, localInputDataBuffer, gBufferIndex);
-		snprintf((char *)gInputDataBuffer, 512, "Debug ===> %s", localInputDataBuffer);
-		gBufferIndex = strlen((char *)gInputDataBuffer);
+    Buffer_Read(&gRingBuffer, gInputDataBuffer, gBufferIndex);
     if (USBDClass_CDC_Tx((u32 *)gInputDataBuffer, gBufferIndex) == gBufferIndex)
     {
       gIsDataReady = FALSE;

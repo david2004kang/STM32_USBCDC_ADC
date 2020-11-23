@@ -337,7 +337,7 @@
               <MiscControls></MiscControls>
               <Define>USE_HT32_DRIVER, USE_HT32F52341_SK, USE_HT32F52331_41, USE_MEM_HT32F52341</Define>
               <Undefine></Undefine>
-              <IncludePath>..\;.\library\CMSIS\Include;.\library\Device\Holtek\HT32F5xxxx\Include;.\library\HT32F5xxxx_Driver\inc;.\library\HT32_USBD_Library\inc;.\utilities</IncludePath>
+              <IncludePath>..\;..\library\CMSIS\Include;..\library\Device\Holtek\HT32F5xxxx\Include;..\library\HT32F5xxxx_Driver\inc;..\library\HT32_USBD_Library\inc;..\utilities</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -454,7 +454,7 @@
             <File>
               <FileName>ht32_usbd_core.c</FileName>
               <FileType>1</FileType>
-              <FilePath>.\library\HT32_USBD_Library\src\ht32_usbd_core.c</FilePath>
+              <FilePath>..\library\HT32_USBD_Library\src\ht32_usbd_core.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -464,97 +464,97 @@
             <File>
               <FileName>ht32_cm0plus_misc.c</FileName>
               <FileType>1</FileType>
-              <FilePath>.\library\HT32F5xxxx_Driver\src\ht32_cm0plus_misc.c</FilePath>
+              <FilePath>..\library\HT32F5xxxx_Driver\src\ht32_cm0plus_misc.c</FilePath>
             </File>
             <File>
               <FileName>ht32f5xxxx_adc.c</FileName>
               <FileType>1</FileType>
-              <FilePath>.\library\HT32F5xxxx_Driver\src\ht32f5xxxx_adc.c</FilePath>
+              <FilePath>..\library\HT32F5xxxx_Driver\src\ht32f5xxxx_adc.c</FilePath>
             </File>
             <File>
               <FileName>ht32f5xxxx_bftm.c</FileName>
               <FileType>1</FileType>
-              <FilePath>.\library\HT32F5xxxx_Driver\src\ht32f5xxxx_bftm.c</FilePath>
+              <FilePath>..\library\HT32F5xxxx_Driver\src\ht32f5xxxx_bftm.c</FilePath>
             </File>
             <File>
               <FileName>ht32f5xxxx_ckcu.c</FileName>
               <FileType>1</FileType>
-              <FilePath>.\library\HT32F5xxxx_Driver\src\ht32f5xxxx_ckcu.c</FilePath>
+              <FilePath>..\library\HT32F5xxxx_Driver\src\ht32f5xxxx_ckcu.c</FilePath>
             </File>
             <File>
               <FileName>ht32f5xxxx_crc.c</FileName>
               <FileType>1</FileType>
-              <FilePath>.\library\HT32F5xxxx_Driver\src\ht32f5xxxx_crc.c</FilePath>
+              <FilePath>..\library\HT32F5xxxx_Driver\src\ht32f5xxxx_crc.c</FilePath>
             </File>
             <File>
               <FileName>ht32f5xxxx_exti.c</FileName>
               <FileType>1</FileType>
-              <FilePath>.\library\HT32F5xxxx_Driver\src\ht32f5xxxx_exti.c</FilePath>
+              <FilePath>..\library\HT32F5xxxx_Driver\src\ht32f5xxxx_exti.c</FilePath>
             </File>
             <File>
               <FileName>ht32f5xxxx_flash.c</FileName>
               <FileType>1</FileType>
-              <FilePath>.\library\HT32F5xxxx_Driver\src\ht32f5xxxx_flash.c</FilePath>
+              <FilePath>..\library\HT32F5xxxx_Driver\src\ht32f5xxxx_flash.c</FilePath>
             </File>
             <File>
               <FileName>ht32f5xxxx_gpio.c</FileName>
               <FileType>1</FileType>
-              <FilePath>.\library\HT32F5xxxx_Driver\src\ht32f5xxxx_gpio.c</FilePath>
+              <FilePath>..\library\HT32F5xxxx_Driver\src\ht32f5xxxx_gpio.c</FilePath>
             </File>
             <File>
               <FileName>ht32f5xxxx_i2c.c</FileName>
               <FileType>1</FileType>
-              <FilePath>.\library\HT32F5xxxx_Driver\src\ht32f5xxxx_i2c.c</FilePath>
+              <FilePath>..\library\HT32F5xxxx_Driver\src\ht32f5xxxx_i2c.c</FilePath>
             </File>
             <File>
               <FileName>ht32f5xxxx_mctm.c</FileName>
               <FileType>1</FileType>
-              <FilePath>.\library\HT32F5xxxx_Driver\src\ht32f5xxxx_mctm.c</FilePath>
+              <FilePath>..\library\HT32F5xxxx_Driver\src\ht32f5xxxx_mctm.c</FilePath>
             </File>
             <File>
               <FileName>ht32f5xxxx_pwrcu.c</FileName>
               <FileType>1</FileType>
-              <FilePath>.\library\HT32F5xxxx_Driver\src\ht32f5xxxx_pwrcu.c</FilePath>
+              <FilePath>..\library\HT32F5xxxx_Driver\src\ht32f5xxxx_pwrcu.c</FilePath>
             </File>
             <File>
               <FileName>ht32f5xxxx_rstcu.c</FileName>
               <FileType>1</FileType>
-              <FilePath>.\library\HT32F5xxxx_Driver\src\ht32f5xxxx_rstcu.c</FilePath>
+              <FilePath>..\library\HT32F5xxxx_Driver\src\ht32f5xxxx_rstcu.c</FilePath>
             </File>
             <File>
               <FileName>ht32f5xxxx_rtc.c</FileName>
               <FileType>1</FileType>
-              <FilePath>.\library\HT32F5xxxx_Driver\src\ht32f5xxxx_rtc.c</FilePath>
+              <FilePath>..\library\HT32F5xxxx_Driver\src\ht32f5xxxx_rtc.c</FilePath>
             </File>
             <File>
               <FileName>ht32f5xxxx_sci.c</FileName>
               <FileType>1</FileType>
-              <FilePath>.\library\HT32F5xxxx_Driver\src\ht32f5xxxx_sci.c</FilePath>
+              <FilePath>..\library\HT32F5xxxx_Driver\src\ht32f5xxxx_sci.c</FilePath>
             </File>
             <File>
               <FileName>ht32f5xxxx_spi.c</FileName>
               <FileType>1</FileType>
-              <FilePath>.\library\HT32F5xxxx_Driver\src\ht32f5xxxx_spi.c</FilePath>
+              <FilePath>..\library\HT32F5xxxx_Driver\src\ht32f5xxxx_spi.c</FilePath>
             </File>
             <File>
               <FileName>ht32f5xxxx_tm.c</FileName>
               <FileType>1</FileType>
-              <FilePath>.\library\HT32F5xxxx_Driver\src\ht32f5xxxx_tm.c</FilePath>
+              <FilePath>..\library\HT32F5xxxx_Driver\src\ht32f5xxxx_tm.c</FilePath>
             </File>
             <File>
               <FileName>ht32f5xxxx_usart.c</FileName>
               <FileType>1</FileType>
-              <FilePath>.\library\HT32F5xxxx_Driver\src\ht32f5xxxx_usart.c</FilePath>
+              <FilePath>..\library\HT32F5xxxx_Driver\src\ht32f5xxxx_usart.c</FilePath>
             </File>
             <File>
               <FileName>ht32f5xxxx_usbd.c</FileName>
               <FileType>1</FileType>
-              <FilePath>.\library\HT32F5xxxx_Driver\src\ht32f5xxxx_usbd.c</FilePath>
+              <FilePath>..\library\HT32F5xxxx_Driver\src\ht32f5xxxx_usbd.c</FilePath>
             </File>
             <File>
               <FileName>ht32f5xxxx_wdt.c</FileName>
               <FileType>1</FileType>
-              <FilePath>.\library\HT32F5xxxx_Driver\src\ht32f5xxxx_wdt.c</FilePath>
+              <FilePath>..\library\HT32F5xxxx_Driver\src\ht32f5xxxx_wdt.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -564,12 +564,12 @@
             <File>
               <FileName>ht32_retarget.c</FileName>
               <FileType>1</FileType>
-              <FilePath>.\library\HT32F5xxxx_Driver\src\ht32_retarget.c</FilePath>
+              <FilePath>..\library\HT32F5xxxx_Driver\src\ht32_retarget.c</FilePath>
             </File>
             <File>
               <FileName>ht32_serial.c</FileName>
               <FileType>1</FileType>
-              <FilePath>.\library\HT32F5xxxx_Driver\src\ht32_serial.c</FilePath>
+              <FilePath>..\library\HT32F5xxxx_Driver\src\ht32_serial.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -579,22 +579,22 @@
             <File>
               <FileName>ht32_board.c</FileName>
               <FileType>1</FileType>
-              <FilePath>.\utilities\ht32_board.c</FilePath>
+              <FilePath>..\utilities\ht32_board.c</FilePath>
             </File>
             <File>
               <FileName>i2c_eeprom.c</FileName>
               <FileType>1</FileType>
-              <FilePath>.\utilities\common\i2c_eeprom.c</FilePath>
+              <FilePath>..\utilities\common\i2c_eeprom.c</FilePath>
             </File>
             <File>
               <FileName>spi_flash.c</FileName>
               <FileType>1</FileType>
-              <FilePath>.\utilities\common\spi_flash.c</FilePath>
+              <FilePath>..\utilities\common\spi_flash.c</FilePath>
             </File>
             <File>
               <FileName>spi_lcd.c</FileName>
               <FileType>1</FileType>
-              <FilePath>.\utilities\common\spi_lcd.c</FilePath>
+              <FilePath>..\utilities\common\spi_lcd.c</FilePath>
             </File>
           </Files>
         </Group>
