@@ -31,6 +31,7 @@
 #include "ht32_usbd_class.h"
 #include "common/ring_buffer.h"
 #include "common/ring_buffer.c"
+#include <string.h>
 
 /** @addtogroup HT32_Series_Peripheral_Examples HT32 Peripheral Examples
   * @{
@@ -200,6 +201,8 @@ static void USBDClass_CDC_ZLPProcess(void)
   ***********************************************************************************************************/
 static void USBDClass_CDC_Rx(void)
 {
+	char szBuffer[256];
+	int nStrlen = 0;
   /* Demo how to check Virtual COM RingBuffer data is empty or not                                          */
   if (Buffer_isEmpty(&gRingBuffer) == FALSE)
   {
@@ -218,7 +221,12 @@ static void USBDClass_CDC_Rx(void)
   if (gIsDataReady == TRUE && gIsCDCEPINEmpty == TRUE)
   {
     Buffer_Read(&gRingBuffer, gInputDataBuffer, gBufferIndex);
-    if (USBDClass_CDC_Tx((u32 *)gInputDataBuffer, gBufferIndex) == gBufferIndex)
+		memset(szBuffer, 0, 256);
+		snprintf(szBuffer, 256, "Debug ==> %s", gInputDataBuffer);
+		nStrlen = strlen(szBuffer);
+		
+//    if (USBDClass_CDC_Tx((u32 *)gInputDataBuffer, gBufferIndex) == gBufferIndex)
+    if (USBDClass_CDC_Tx((u32 *)szBuffer, nStrlen) == nStrlen)
     {
       gIsDataReady = FALSE;
     }
